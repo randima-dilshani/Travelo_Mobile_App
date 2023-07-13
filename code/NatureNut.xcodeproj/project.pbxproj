@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E1A6BCD2A3B44D400850255 /* NatureNutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6BCC2A3B44D400850255 /* NatureNutApp.swift */; };
+		9E1A6BD12A3B44DA00850255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1A6BD02A3B44DA00850255 /* Assets.xcassets */; };
+		9E1A6BD42A3B44DA00850255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1A6BD32A3B44DA00850255 /* Preview Assets.xcassets */; };
+		9E1A6BDE2A3B44DB00850255 /* NatureNutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6BDD2A3B44DB00850255 /* NatureNutTests.swift */; };
+		9E1A6BE82A3B44DC00850255 /* NatureNutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6BE72A3B44DC00850255 /* NatureNutUITests.swift */; };
+		9E1A6BEA2A3B44DC00850255 /* NatureNutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6BE92A3B44DC00850255 /* NatureNutUITestsLaunchTests.swift */; };
+		9E1A6BF92A3B45A300850255 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6BF72A3B45A300850255 /* Model.xcdatamodeld */; };
+		9E1A6BFF2A3B4BF000850255 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6BFE2A3B4BF000850255 /* DataController.swift */; };
+		9E1A6C082A3B6CAE00850255 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C072A3B6CAE00850255 /* Action.swift */; };
+		9E1A6C0A2A3B6CEF00850255 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C092A3B6CEF00850255 /* Business.swift */; };
+		9E1A6C0C2A3B6D2B00850255 /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C0B2A3B6D2B00850255 /* BusinessView.swift */; };
+		9E1A6C0E2A3B6D6400850255 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C0D2A3B6D6400850255 /* MapController.swift */; };
+		9E1A6C102A3B6D8F00850255 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C0F2A3B6D8F00850255 /* MapView.swift */; };
+		9E1A6C122A3B6DD100850255 /* MapPresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C112A3B6DD100850255 /* MapPresentView.swift */; };
+		9E1A6C152A3B6E2900850255 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C142A3B6E2900850255 /* TimeFormatting.swift */; };
+		9E1A6C182A3B828F00850255 /* Nature+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C162A3B828F00850255 /* Nature+CoreDataClass.swift */; };
+		9E1A6C192A3B828F00850255 /* Nature+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C172A3B828F00850255 /* Nature+CoreDataProperties.swift */; };
+		9E1A6C1B2A3B8BB900850255 /* land3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E1A6C1A2A3B8BB900850255 /* land3.jpg */; };
+		9E1A6C1F2A3B8DB300850255 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C1E2A3B8DB300850255 /* LandingView.swift */; };
+		9E1A6C272A3B91A600850255 /* AddNatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C262A3B91A600850255 /* AddNatureView.swift */; };
+		9E1A6C292A3B91E100850255 /* SpecificNatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C282A3B91E100850255 /* SpecificNatureView.swift */; };
+		9E1A6C2B2A3B920E00850255 /* EditNatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C2A2A3B920E00850255 /* EditNatureView.swift */; };
+		9E1A6C2D2A3B925800850255 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A6C2C2A3B925800850255 /* HomeView.swift */; };
+		9E3999602A3CA45300AF200D /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39995F2A3CA45300AF200D /* SigninView.swift */; };
+		9E3999622A3CC8C000AF200D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3999612A3CC8C000AF200D /* ProfileView.swift */; };
+		9E7DAAA92A3C0B2600735D8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7DAAA82A3C0B2600735D8B /* ContentView.swift */; };
+		9E7DAAAB2A3C381400735D8B /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7DAAAA2A3C381400735D8B /* DetailScreen.swift */; };
+		F6E1194B2A3D8A76004A9658 /* AllNatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1194A2A3D8A76004A9658 /* AllNatureView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E1A6BDA2A3B44DB00850255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1A6BC12A3B44D400850255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1A6BC82A3B44D400850255;
+			remoteInfo = NatureNut;
+		};
+		9E1A6BE42A3B44DC00850255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1A6BC12A3B44D400850255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1A6BC82A3B44D400850255;
+			remoteInfo = NatureNut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E1A6BC92A3B44D400850255 /* NatureNut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureNut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1A6BCC2A3B44D400850255 /* NatureNutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureNutApp.swift; sourceTree = "<group>"; };
+		9E1A6BD02A3B44DA00850255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E1A6BD32A3B44DA00850255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E1A6BD92A3B44DB00850255 /* NatureNutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureNutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1A6BDD2A3B44DB00850255 /* NatureNutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureNutTests.swift; sourceTree = "<group>"; };
+		9E1A6BE32A3B44DC00850255 /* NatureNutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureNutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1A6BE72A3B44DC00850255 /* NatureNutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureNutUITests.swift; sourceTree = "<group>"; };
+		9E1A6BE92A3B44DC00850255 /* NatureNutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureNutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E1A6BF82A3B45A300850255 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9E1A6BFE2A3B4BF000850255 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		9E1A6C072A3B6CAE00850255 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		9E1A6C092A3B6CEF00850255 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		9E1A6C0B2A3B6D2B00850255 /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
+		9E1A6C0D2A3B6D6400850255 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		9E1A6C0F2A3B6D8F00850255 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9E1A6C112A3B6DD100850255 /* MapPresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresentView.swift; sourceTree = "<group>"; };
+		9E1A6C142A3B6E2900850255 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		9E1A6C162A3B828F00850255 /* Nature+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nature+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9E1A6C172A3B828F00850255 /* Nature+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nature+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9E1A6C1A2A3B8BB900850255 /* land3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = land3.jpg; sourceTree = "<group>"; };
+		9E1A6C1E2A3B8DB300850255 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		9E1A6C262A3B91A600850255 /* AddNatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNatureView.swift; sourceTree = "<group>"; };
+		9E1A6C282A3B91E100850255 /* SpecificNatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificNatureView.swift; sourceTree = "<group>"; };
+		9E1A6C2A2A3B920E00850255 /* EditNatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNatureView.swift; sourceTree = "<group>"; };
+		9E1A6C2C2A3B925800850255 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9E39995F2A3CA45300AF200D /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		9E3999612A3CC8C000AF200D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9E7DAAA82A3C0B2600735D8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E7DAAAA2A3C381400735D8B /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		F6E1194A2A3D8A76004A9658 /* AllNatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNatureView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E1A6BC62A3B44D400850255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1A6BD62A3B44DB00850255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1A6BE02A3B44DC00850255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E1A6BC02A3B44D400850255 = {
+			isa = PBXGroup;
+			children = (
+				9E1A6C162A3B828F00850255 /* Nature+CoreDataClass.swift */,
+				9E1A6C172A3B828F00850255 /* Nature+CoreDataProperties.swift */,
+				9E1A6BCB2A3B44D400850255 /* NatureNut */,
+				9E1A6BDC2A3B44DB00850255 /* NatureNutTests */,
+				9E1A6BE62A3B44DC00850255 /* NatureNutUITests */,
+				9E1A6BCA2A3B44D400850255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E1A6BCA2A3B44D400850255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A6BC92A3B44D400850255 /* NatureNut.app */,
+				9E1A6BD92A3B44DB00850255 /* NatureNutTests.xctest */,
+				9E1A6BE32A3B44DC00850255 /* NatureNutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E1A6BCB2A3B44D400850255 /* NatureNut */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A6C132A3B6E0100850255 /* Helper */,
+				9E1A6C002A3B4DE400850255 /* View */,
+				9E1A6BF62A3B455500850255 /* DataModel */,
+				9E1A6BD02A3B44DA00850255 /* Assets.xcassets */,
+				9E1A6C1A2A3B8BB900850255 /* land3.jpg */,
+				9E1A6BD22A3B44DA00850255 /* Preview Content */,
+			);
+			path = NatureNut;
+			sourceTree = "<group>";
+		};
+		9E1A6BD22A3B44DA00850255 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A6BCC2A3B44D400850255 /* NatureNutApp.swift */,
+				9E1A6BD32A3B44DA00850255 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E1A6BDC2A3B44DB00850255 /* NatureNutTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A6BDD2A3B44DB00850255 /* NatureNutTests.swift */,
+			);
+			path = NatureNutTests;
+			sourceTree = "<group>";
+		};
+		9E1A6BE62A3B44DC00850255 /* NatureNutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A6BE72A3B44DC00850255 /* NatureNutUITests.swift */,
+				9E1A6BE92A3B44DC00850255 /* NatureNutUITestsLaunchTests.swift */,
+			);
+			path = NatureNutUITests;
+			sourceTree = "<group>";
+		};
+		9E1A6BF62A3B455500850255 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A6BF72A3B45A300850255 /* Model.xcdatamodeld */,
+				9E1A6BFE2A3B4BF000850255 /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9E1A6C002A3B4DE400850255 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A6C072A3B6CAE00850255 /* Action.swift */,
+				9E1A6C092A3B6CEF00850255 /* Business.swift */,
+				9E1A6C0B2A3B6D2B00850255 /* BusinessView.swift */,
+				9E1A6C0D2A3B6D6400850255 /* MapController.swift */,
+				9E1A6C0F2A3B6D8F00850255 /* MapView.swift */,
+				9E1A6C112A3B6DD100850255 /* MapPresentView.swift */,
+				9E1A6C1E2A3B8DB300850255 /* LandingView.swift */,
+				9E1A6C262A3B91A600850255 /* AddNatureView.swift */,
+				9E1A6C282A3B91E100850255 /* SpecificNatureView.swift */,
+				9E1A6C2A2A3B920E00850255 /* EditNatureView.swift */,
+				9E1A6C2C2A3B925800850255 /* HomeView.swift */,
+				9E7DAAA82A3C0B2600735D8B /* ContentView.swift */,
+				9E7DAAAA2A3C381400735D8B /* DetailScreen.swift */,
+				9E39995F2A3CA45300AF200D /* SigninView.swift */,
+				9E3999612A3CC8C000AF200D /* ProfileView.swift */,
+				F6E1194A2A3D8A76004A9658 /* AllNatureView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E1A6C132A3B6E0100850255 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A6C142A3B6E2900850255 /* TimeFormatting.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E1A6BC82A3B44D400850255 /* NatureNut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1A6BED2A3B44DC00850255 /* Build configuration list for PBXNativeTarget "NatureNut" */;
+			buildPhases = (
+				9E1A6BC52A3B44D400850255 /* Sources */,
+				9E1A6BC62A3B44D400850255 /* Frameworks */,
+				9E1A6BC72A3B44D400850255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NatureNut;
+			productName = NatureNut;
+			productReference = 9E1A6BC92A3B44D400850255 /* NatureNut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E1A6BD82A3B44DB00850255 /* NatureNutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1A6BF02A3B44DC00850255 /* Build configuration list for PBXNativeTarget "NatureNutTests" */;
+			buildPhases = (
+				9E1A6BD52A3B44DB00850255 /* Sources */,
+				9E1A6BD62A3B44DB00850255 /* Frameworks */,
+				9E1A6BD72A3B44DB00850255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E1A6BDB2A3B44DB00850255 /* PBXTargetDependency */,
+			);
+			name = NatureNutTests;
+			productName = NatureNutTests;
+			productReference = 9E1A6BD92A3B44DB00850255 /* NatureNutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E1A6BE22A3B44DC00850255 /* NatureNutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1A6BF32A3B44DC00850255 /* Build configuration list for PBXNativeTarget "NatureNutUITests" */;
+			buildPhases = (
+				9E1A6BDF2A3B44DC00850255 /* Sources */,
+				9E1A6BE02A3B44DC00850255 /* Frameworks */,
+				9E1A6BE12A3B44DC00850255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E1A6BE52A3B44DC00850255 /* PBXTargetDependency */,
+			);
+			name = NatureNutUITests;
+			productName = NatureNutUITests;
+			productReference = 9E1A6BE32A3B44DC00850255 /* NatureNutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E1A6BC12A3B44D400850255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9E1A6BC82A3B44D400850255 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9E1A6BD82A3B44DB00850255 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9E1A6BC82A3B44D400850255;
+					};
+					9E1A6BE22A3B44DC00850255 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9E1A6BC82A3B44D400850255;
+					};
+				};
+			};
+			buildConfigurationList = 9E1A6BC42A3B44D400850255 /* Build configuration list for PBXProject "NatureNut" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E1A6BC02A3B44D400850255;
+			productRefGroup = 9E1A6BCA2A3B44D400850255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E1A6BC82A3B44D400850255 /* NatureNut */,
+				9E1A6BD82A3B44DB00850255 /* NatureNutTests */,
+				9E1A6BE22A3B44DC00850255 /* NatureNutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E1A6BC72A3B44D400850255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1A6BD42A3B44DA00850255 /* Preview Assets.xcassets in Resources */,
+				9E1A6BD12A3B44DA00850255 /* Assets.xcassets in Resources */,
+				9E1A6C1B2A3B8BB900850255 /* land3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1A6BD72A3B44DB00850255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1A6BE12A3B44DC00850255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E1A6BC52A3B44D400850255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1A6C1F2A3B8DB300850255 /* LandingView.swift in Sources */,
+				9E1A6C0C2A3B6D2B00850255 /* BusinessView.swift in Sources */,
+				9E3999602A3CA45300AF200D /* SigninView.swift in Sources */,
+				F6E1194B2A3D8A76004A9658 /* AllNatureView.swift in Sources */,
+				9E1A6C0E2A3B6D6400850255 /* MapController.swift in Sources */,
+				9E1A6C122A3B6DD100850255 /* MapPresentView.swift in Sources */,
+				9E1A6C192A3B828F00850255 /* Nature+CoreDataProperties.swift in Sources */,
+				9E1A6C292A3B91E100850255 /* SpecificNatureView.swift in Sources */,
+				9E1A6C082A3B6CAE00850255 /* Action.swift in Sources */,
+				9E1A6BFF2A3B4BF000850255 /* DataController.swift in Sources */,
+				9E1A6C2D2A3B925800850255 /* HomeView.swift in Sources */,
+				9E1A6C102A3B6D8F00850255 /* MapView.swift in Sources */,
+				9E1A6C2B2A3B920E00850255 /* EditNatureView.swift in Sources */,
+				9E1A6C182A3B828F00850255 /* Nature+CoreDataClass.swift in Sources */,
+				9E1A6C272A3B91A600850255 /* AddNatureView.swift in Sources */,
+				9E1A6C152A3B6E2900850255 /* TimeFormatting.swift in Sources */,
+				9E7DAAA92A3C0B2600735D8B /* ContentView.swift in Sources */,
+				9E7DAAAB2A3C381400735D8B /* DetailScreen.swift in Sources */,
+				9E1A6C0A2A3B6CEF00850255 /* Business.swift in Sources */,
+				9E1A6BCD2A3B44D400850255 /* NatureNutApp.swift in Sources */,
+				9E3999622A3CC8C000AF200D /* ProfileView.swift in Sources */,
+				9E1A6BF92A3B45A300850255 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1A6BD52A3B44DB00850255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1A6BDE2A3B44DB00850255 /* NatureNutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1A6BDF2A3B44DC00850255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1A6BE82A3B44DC00850255 /* NatureNutUITests.swift in Sources */,
+				9E1A6BEA2A3B44DC00850255 /* NatureNutUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E1A6BDB2A3B44DB00850255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1A6BC82A3B44D400850255 /* NatureNut */;
+			targetProxy = 9E1A6BDA2A3B44DB00850255 /* PBXContainerItemProxy */;
+		};
+		9E1A6BE52A3B44DC00850255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1A6BC82A3B44D400850255 /* NatureNut */;
+			targetProxy = 9E1A6BE42A3B44DC00850255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9E1A6BEB2A3B44DC00850255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E1A6BEC2A3B44DC00850255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1A6BEE2A3B44DC00850255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NatureNut/Preview Content\"";
+				DEVELOPMENT_TEAM = VHH8G2FV3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randima.macbook.NatureNut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E1A6BEF2A3B44DC00850255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NatureNut/Preview Content\"";
+				DEVELOPMENT_TEAM = VHH8G2FV3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randima.macbook.NatureNut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E1A6BF12A3B44DC00850255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8G2FV3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randima.macbook.NatureNutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatureNut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NatureNut";
+			};
+			name = Debug;
+		};
+		9E1A6BF22A3B44DC00850255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8G2FV3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randima.macbook.NatureNutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatureNut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NatureNut";
+			};
+			name = Release;
+		};
+		9E1A6BF42A3B44DC00850255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8G2FV3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randima.macbook.NatureNutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NatureNut;
+			};
+			name = Debug;
+		};
+		9E1A6BF52A3B44DC00850255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHH8G2FV3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randima.macbook.NatureNutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NatureNut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E1A6BC42A3B44D400850255 /* Build configuration list for PBXProject "NatureNut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1A6BEB2A3B44DC00850255 /* Debug */,
+				9E1A6BEC2A3B44DC00850255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1A6BED2A3B44DC00850255 /* Build configuration list for PBXNativeTarget "NatureNut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1A6BEE2A3B44DC00850255 /* Debug */,
+				9E1A6BEF2A3B44DC00850255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1A6BF02A3B44DC00850255 /* Build configuration list for PBXNativeTarget "NatureNutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1A6BF12A3B44DC00850255 /* Debug */,
+				9E1A6BF22A3B44DC00850255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1A6BF32A3B44DC00850255 /* Build configuration list for PBXNativeTarget "NatureNutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1A6BF42A3B44DC00850255 /* Debug */,
+				9E1A6BF52A3B44DC00850255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E1A6BF72A3B45A300850255 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E1A6BF82A3B45A300850255 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9E1A6BF82A3B45A300850255 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E1A6BC12A3B44D400850255 /* Project object */;
+}
