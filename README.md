@@ -1,11 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/sHz1bMKn)
 Please go under edit and edit this file as needed for your project.  There is no seperate documentation needed.
 
-<<<<<<< HEAD
 Project Name - Travello
-=======
-# Project Name - Travello
->>>>>>> 6a20de09e8152d41a96084a03effeb979ddd7b0b
 
 #### 01. Brief Description of Project - Travello is a groundbreaking iOS app designed to empower travel enthusiasts, nature lovers, and photographers by providing them with a unique platform to store, organize, and showcase their awe-inspiring collection of photographs. Whether you're capturing rare plants, exotic flowers, breathtaking landscapes, or captivating wildlife encounters, Travello is your ultimate companion for documenting and reliving your most extraordinary adventures.
 
@@ -24,11 +20,7 @@ What sets Travello apart is its exceptional organization capabilities. The app i
 Travello goes beyond basic photo storage and offers advanced organization capabilities. The app intelligently categorizes and tags photographs, allowing users to easily navigate and search through their extensive collections. Users can create themed albums, sort photos by location, species, or other criteria, making it effortless to find and showcase specific photographs.
 
 Travello understands that photographs are not just images but powerful storytelling tools. The app provides intuitive storytelling features, allowing users to add descriptions, geotags, and timestamps to their photos, enabling them to create engaging narratives around their travel experiences. This enhances the ability to share stories and memories with others.
-<<<<<<< HEAD
-      
-=======
-        
->>>>>>> 6a20de09e8152d41a96084a03effeb979ddd7b0b
+
 #### 06. Give examples of best practices used when writing code
 e.g The code below uses consistant naming conventions for variables, uses structures and constants where ever possible. (Elaborate a bit more on what you did)
 
